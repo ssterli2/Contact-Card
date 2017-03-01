@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Users</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+  </head>
+  <body>
+    <div id="input-form">
+      <h2>Create A Contact Card!</h2>
+      <form name="submit-form">
+      <label for="first_name">First Name:</label>
+      <input name="first_name" id="first_name" type="text" placeholder="First Name"/>
+      <br />
+      <label for="last_name">Last Name:</label>
+      <input name="last_name" id="last_name" type="text" placeholder="Last Name"/>
+      <br />
+      <textarea id="decription" name="description" cols="20" rows="4" placeholder="Enter a decription of yourself" form="submit-form"></textarea>
+      <br />
+      <button id="submit-button" type="submit">Add User</button>
+      </form>
+    </div>
+    <div id="cards">
+    </div>
+  </body>
+</html>
